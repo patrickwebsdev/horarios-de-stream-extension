@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Stream Countdown - Extensión</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #9146ff;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            color: #00d4ff;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        .features {
+            text-align: left;
+            background: rgba(255,255,255,0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 0.5rem 0;
+            color: #ddd;
+        }
+        .features li::before {
+            content: "✓";
+            color: #9146ff;
+            margin-right: 10px;
+        }
+        .links {
+            margin-top: 2rem;
+        }
+        .links a {
+            display: inline-block;
+            background: #9146ff;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0.5rem;
+            transition: background 0.3s;
+        }
+        .links a:hover {
+            background: #772ce8;
+        }
+        .footer {
+            margin-top: 3rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.png" alt="Horarios de stream" style="max-width: 200px; margin-bottom: 1rem;">
+        <h1>🎮 Horarios de stream</h1>
+        
+        <p>Extensión de Twitch que muestra una cuenta regresiva del tiempo restante para el próximo stream del día.</p>
+        
+        <h2>Características</h2>
+        <div class="features">
+            <ul>
+                <li>Cuenta regresiva en tiempo real</li>
+                <li>Horario configurable por día de la semana</li>
+                <li>Soporte multi-timezone (funciona en cualquier país)</li>
+                <li>Modo vacaciones</li>
+                <li>Personalización de colores y fondo</li>
+                <li>Modo rainbow animado</li>
+            </ul>
+        </div>
+        
+        <h2>Información</h2>
+        <p>Esta extensión se configura desde el panel del streamer en Twitch. Los visitantes ven automáticamente el horario del próximo stream.</p>
+        
+        <div class="links">
+            <a href="privacy.html">📜 Política de Privacidad</a>
+            <a href="https://dashboard.twitch.tv/extensions/6orxvlv7vmvsctb6zz0qdd4bz0u7su" target="_blank">🚀 Extensión en Twitch</a>
+        </div>
+        
+        <div class="footer">
+            <p>Desarrollado para la comunidad de Twitch</p>
+        </div>
+    </div>
+</body>
+</html>
